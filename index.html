@@ -5,48 +5,61 @@
 <title>ALFA BETA Clothing</title>
     
     <link href="css/mycss.css" rel="stylesheet"/>
-    
     <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/custom.css" rel="stylesheet"/>
+    <link href="css/owl.carousel.css" rel="stylesheet"/>
+    <link href="css/owl.theme.css" rel="stylesheet"/>
+    <link href="css/owl.transitions.css" rel="stylesheet"/>
+    <link href="css/prettify.css" rel="stylesheet"/>
+  
 </head>
     
 <body>
     
     <nav>
         <div class="row">
-            <div class="col-sm-offset-1 col-sm-2 logo_wrapper">
-                <img src="images/Logo_AlfaBeta-03.png">
-            </div>
+            <a href="index.html">
+                <div class="col-sm-offset-1 col-sm-2 logo_wrapper">
+                    <div class="logo">
+                        <img src="images/Logo_AlfaBeta-03.png">
+                    </div>
+                </div>
+            </a>
             
-            <div class="col-sm-offset-3 col-sm-4">
+            <div class="col-sm-offset-6 col-sm-4 links">
                 <ul>
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">LOOK BOOK</a></li>
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="lookbook.html">LOOK BOOK</a></li>
                     <li><a href="#about">ABOUT</a></li>
                 </ul>
             </div>
             
-            <div class="col-sm-2">
-                <h6>$67.00</h6>
+            <div class="col-sm-2 cart_amount">
+                <h6 class="float cart_price">$67.00</h6>
+                <img class="cart_amount_icon" src="images/cart_amount-05.png">
             </div>
         </div>
     </nav>
     
     <main>
+        <div id="demo" class="carousel_home">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id="owl-demo" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="images/fullimage1.jpg" alt="The Last of us">
-                        </div>
-                        
-                     </div>
-                </div>
-            </div>
-        </div>
+          <div class="row">
+            <div class="span12">
+              <div id="owl-demo" class="owl-carousel">
 
-        <div class="row">
+                <div class="item"><img src="images/carousel_01.jpg" alt="The Last of us"></div>
+                <div class="item"><img src="images/carousel_02.jpg" alt="GTA V"></div>
+                <div class="item"><img src="http://placehold.it/350x150" alt="Mirror Edge"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+        <div class="row bottom_section_home">
             <div id="shop" class="col-sm-8">
                 <div class="row">
                     <div class="col-sm-offset-1 col-sm-1 shop_tag">
@@ -64,9 +77,8 @@
                                 <div class="col-sm-2">
                                     <h5 class="letter_vee">VEE</h5>
                                 </div>
-                                <div class="col-sm-offset-4 col-sm-3">
+                                <div class="col-sm-offset-5 col-sm-3">
                                     <h5 class="float price">$47</h5>
-                                    <h5 class="float">|</h5>
                                 </div>
                                 
                                 <div class="col-sm-3 cart_active">
@@ -85,16 +97,15 @@
                     
                     <div class="item_wrapper col-sm-offset-1 col-sm-4">
                         <div class="item_overview">
-                            <img src="images/v_product.png">
+                            <img src="images/White_K_Product_Front.png">
                         </div>
                         <div class="item_v_info">
                             <div class="row">
                                 <div class="col-sm-2">
                                     <h5 class="letter_vee">KAY</h5>
                                 </div>
-                                <div class="col-sm-offset-4 col-sm-3">
+                                <div class="col-sm-offset-5 col-sm-3">
                                     <h5 class="float price">$47</h5>
-                                    <h5 class="float">|</h5>
                                 </div>
                                 
                                 <div class="col-sm-3 cart_active">
@@ -117,16 +128,15 @@
                  <div id="items2" class="row">
                     <div class="item_wrapper col-sm-offset-1 col-sm-4">
                         <div class="item_overview">
-                            <img src="images/v_product.png">
+                            <img src="images/F_Shirt.png">
                         </div>
                         <div class="item_v_info">
                             <div class="row">
                                 <div class="col-sm-2">
                                     <h5 class="letter_vee">EFF</h5>
                                 </div>
-                                <div class="col-sm-offset-4 col-sm-3">
+                                <div class="col-sm-offset-5 col-sm-3">
                                     <h5 class="float price">$47</h5>
-                                    <h5 class="float">|</h5>
                                 </div>
                                 
                                 <div class="col-sm-3 cart_active">
@@ -145,16 +155,15 @@
                     
                     <div class="item_wrapper col-sm-offset-1 col-sm-4">
                         <div class="item_overview">
-                            <img src="images/v_product.png">
+                            <img src="images/Black_Z_Product.png">
                         </div>
                         <div class="item_v_info">
                             <div class="row">
                                 <div class="col-sm-2">
                                     <h5 class="letter_vee">ZEE</h5>
                                 </div>
-                                <div class="col-sm-offset-4 col-sm-3">
+                                <div class="col-sm-offset-5 col-sm-3">
                                     <h5 class="float price">$47</h5>
-                                    <h5 class="float">|</h5>
                                 </div>
                                 
                                 <div class="col-sm-3 cart_active">
@@ -176,16 +185,15 @@
                 <div id="items3" class="row">
                     <div class="item_wrapper col-sm-offset-1 col-sm-4">
                         <div class="item_overview">
-                            <img src="images/v_product.png">
+                            <img src="images/Black_L_Product.png">
                         </div>
                         <div class="item_v_info">
                             <div class="row">
                                 <div class="col-sm-2">
                                     <h5 class="letter_vee">ELLE</h5>
                                 </div>
-                                <div class="col-sm-offset-4 col-sm-3">
+                                <div class="col-sm-offset-5 col-sm-3">
                                     <h5 class="float price">$47</h5>
-                                    <h5 class="float">|</h5>
                                 </div>
                                 
                                 <div class="col-sm-3 cart_active">
@@ -259,7 +267,7 @@
                         </div>
                     </a>
                 
-                    <a class="clear instagram_wrapper" href="http://www.facebook.com">
+                    <a class="float instagram_wrapper" href="http://www.facebook.com">
                         <div class="instagram_icon">
                         </div>
                     </a>
@@ -284,11 +292,35 @@
     </footer>
     
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/myjs.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/owl.carousel.js"></script>
-  
-
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/google-code-prettify/prettify.js"></script>
+    <script src="js/application.js"></script>
+  
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+
+      navigation : false,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+          
+      });
+    });
+    </script>
+    
+    
+
 </body>
